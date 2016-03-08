@@ -5,15 +5,10 @@ from aux import subset
 import matplotlib.pyplot as plt
 import numpy as np
 import my_func as mf
-subset.main('dataset/YaleB.scale', 380, 0, 'dataset/YaleB.scale.tr', 'dataset/YaleB.scale.te')
+from scipy.optimize import minimize
 
-rate, param = grid.find_parameters('dataset/YaleB.scale.tr', '-log2c -1,1,1 -log2g -1,1,1')
-lb_tr, ins_tr = svmutil.svm_read_problem('dataset/YaleB.scale.tr')
-lb_te, ins_te = svmutil.svm_read_problem('dataset/YaleB.scale.te')
-prob  = svmutil.svm_problem(lb_tr, ins_tr)
-param = svmutil.svm_parameter('-c %f -g %f' % (param['c'], param['g']))
-m = svmutil.svm_train(prob, param)
-p_label, p_acc, p_val = svmutil.svm_predict(lb_te, ins_te, m)
-print p_acc
-co = met.confusion_matrix(lb_te, p_label, labels=np.arange(5)+1)
-mf.plt_co_mat(co)
+sam_tr, ind_tr, sam_te, ind_te, c = mf.predat(38*10, 38)
+fun = lambda x: np.linalg.norm(x, ord=1)
+cons = ({'type': 'eq', 'fun': lambda x: sam_tr.dot(x) - sam_te[:, 1]})
+x0 = np.random.randint(10, size=(380, 1))
+res = minimize(fun, x0,  method='SLSQP', constraints=cons)

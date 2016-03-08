@@ -2,102 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19114f3b-a2b4-4417-87a8-62264d5bc53d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/YaleB.scale" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/YaleB.scale.tr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/libsvm.so.2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/YaleB.scale" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/libsvmread.mexmaci64" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/libsvmwrite.mexmaci64" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svmpredict.mexmaci64" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svmtrain.mexmaci64" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-predict" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-scale" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-train" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/libsvm.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/libsvmread.mexw64" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/libsvmwrite.mexw64" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svm-predict.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svm-scale.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svm-toy.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svm-train.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svmpredict.mexw64" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svmtrain.mexw64" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/bare_conf.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YaleB.scale.tr.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aux/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aux/subset.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/YaleB" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/YaleB.scale.te" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/COPYRIGHT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/FAQ.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/Makefile.win" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/heart_scale" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm.m4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm_model.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm_node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm_parameter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm_print_interface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm_problem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/svm_predict.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/svm_scale.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/svm_toy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/svm_train.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/test_applet.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/YaleB" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/libsvmread.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/libsvmwrite.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/make.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svm_model_matlab.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svm_model_matlab.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svmpredict.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svmtrain.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/python/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/python/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/python/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/python/svm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/python/svmutil.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-predict.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-scale.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/callbacks.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/callbacks.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/interface.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/interface.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/main.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/svm-toy.glade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/qt/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/qt/svm-toy.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/windows/svm-toy.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-train.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm.def" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/checkdata.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/easy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/grid.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/subset.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/bare_conf.aux" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/bare_conf.tex" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bare_conf.aux" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bare_conf.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bare_conf.tex" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Yale.mat" afterPath="$PROJECT_DIR$/dataset/Yale.mat" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/YaleB.scale.tr.out" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/YaleB.scale.tr" afterPath="$PROJECT_DIR$/dataset/YaleB.scale.tr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expr.py" afterPath="$PROJECT_DIR$/expr.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mthds.py" afterPath="$PROJECT_DIR$/mthds.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_func.py" afterPath="$PROJECT_DIR$/my_func.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <ignored path="539_mid_proj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,7 +21,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/539_mid_proj$test.coverage" NAME="test Coverage Results" MODIFIED="1457400454471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/539_mid_proj$test.coverage" NAME="test Coverage Results" MODIFIED="1457450415692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/539_mid_proj$expr.coverage" NAME="expr Coverage Results" MODIFIED="1457402130209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/539_mid_proj$lda.coverage" NAME="lda Coverage Results" MODIFIED="1456111395035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/539_mid_proj$pca_test.coverage" NAME="pca_test Coverage Results" MODIFIED="1456184140686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -157,6 +67,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="my_func.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_func.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -172,8 +94,8 @@
       <file leaf-file-name="expr.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/expr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.265625">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.03794643">
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -205,9 +127,9 @@
         <option value="$PROJECT_DIR$/bare_conf.tex" />
         <option value="$PROJECT_DIR$/subset.py" />
         <option value="$PROJECT_DIR$/libsvm/tools/grid.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/my_func.py" />
         <option value="$PROJECT_DIR$/mthds.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/expr.py" />
       </list>
     </option>
@@ -291,34 +213,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="539_mid_proj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="539_mid_proj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataset" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="539_mid_proj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="539_mid_proj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -345,7 +239,7 @@
       <recent name="$PROJECT_DIR$/dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.expr">
+  <component name="RunManager" selected="Python.test">
     <configuration default="false" name="lda" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -638,8 +532,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.expr" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.expr" />
         <item index="2" class="java.lang.String" itemvalue="Python.pca" />
         <item index="3" class="java.lang.String" itemvalue="Python.pca_test" />
         <item index="4" class="java.lang.String" itemvalue="Python.lda" />
@@ -663,7 +557,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455936291441</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="src left">
+      <created>1457404351756</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1457404351756</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -679,20 +579,20 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28513733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3181818" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3029079" sideWeight="0.50852275" order="4" side_tool="true" content_ui="tabs" x="-46" y="272" width="1280" height="225" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.4951535" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32386363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.49353796" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28513733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3536932" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="600" />
@@ -736,7 +636,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize py files" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialize py files" />
+    <MESSAGE value="src left" />
+    <option name="LAST_COMMIT_MESSAGE" value="src left" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -748,12 +649,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/test.py</url>
-          <line>17</line>
+          <line>4</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/expr.py</url>
-          <line>43</line>
+          <line>67</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
       </breakpoints>
@@ -1198,10 +1099,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mthds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="68" selection-start-line="110" selection-start-column="68" selection-end-line="110" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -1218,20 +1129,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mthds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="68" selection-start-line="110" selection-start-column="68" selection-end-line="110" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/expr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.265625">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.03794643">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
