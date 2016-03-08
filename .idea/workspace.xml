@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19114f3b-a2b4-4417-87a8-62264d5bc53d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/YaleB.scale.te" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/YaleB.scale.tr.out" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/YaleB.scale.tr" afterPath="$PROJECT_DIR$/dataset/YaleB.scale.tr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expr.py" afterPath="$PROJECT_DIR$/expr.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
-    </list>
+    <list default="true" id="19114f3b-a2b4-4417-87a8-62264d5bc53d" name="Default" comment="" />
     <ignored path="539_mid_proj.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -94,7 +87,7 @@
       <file leaf-file-name="expr.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/expr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03794643">
+            <state vertical-scroll-proportion="0.68303573">
               <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -563,7 +556,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457404351756</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="expr update">
+      <created>1457451196820</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1457451196820</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -577,7 +576,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -637,7 +636,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize py files" />
     <MESSAGE value="src left" />
-    <option name="LAST_COMMIT_MESSAGE" value="src left" />
+    <MESSAGE value="expr update" />
+    <option name="LAST_COMMIT_MESSAGE" value="expr update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1131,7 +1131,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/expr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03794643">
+        <state vertical-scroll-proportion="0.68303573">
           <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
