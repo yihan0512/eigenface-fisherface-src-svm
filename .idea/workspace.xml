@@ -2,10 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19114f3b-a2b4-4417-87a8-62264d5bc53d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mthds.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_func.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lda.py" afterPath="$PROJECT_DIR$/expr.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pca.py" afterPath="$PROJECT_DIR$/pca.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/YaleB.scale" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/YaleB.scale.tr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/libsvm.so.2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/YaleB.scale" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/libsvmread.mexmaci64" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/libsvmwrite.mexmaci64" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svmpredict.mexmaci64" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svmtrain.mexmaci64" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-predict" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-scale" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-train" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/libsvm.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/libsvmread.mexw64" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/libsvmwrite.mexw64" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svm-predict.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svm-scale.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svm-toy.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svm-train.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svmpredict.mexw64" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/windows/svmtrain.mexw64" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/bare_conf.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YaleB.scale.tr.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aux/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aux/subset.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/YaleB" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset/YaleB.scale.te" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/COPYRIGHT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/FAQ.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/Makefile.win" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/heart_scale" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm.m4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm_model.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm_node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm_parameter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm_print_interface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/libsvm/svm_problem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/svm_predict.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/svm_scale.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/svm_toy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/svm_train.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/java/test_applet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/YaleB" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/libsvmread.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/libsvmwrite.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/make.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svm_model_matlab.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svm_model_matlab.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svmpredict.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/matlab/svmtrain.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/python/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/python/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/python/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/python/svm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/python/svmutil.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-predict.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-scale.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/callbacks.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/callbacks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/interface.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/interface.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/main.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/gtk/svm-toy.glade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/qt/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/qt/svm-toy.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-toy/windows/svm-toy.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm-train.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm.def" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/svm.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/checkdata.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/easy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/grid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libsvm/tools/subset.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/bare_conf.aux" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tex/bare_conf.tex" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bare_conf.aux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bare_conf.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bare_conf.tex" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Yale.mat" afterPath="$PROJECT_DIR$/dataset/Yale.mat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expr.py" afterPath="$PROJECT_DIR$/expr.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mthds.py" afterPath="$PROJECT_DIR$/mthds.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_func.py" afterPath="$PROJECT_DIR$/my_func.py" />
     </list>
     <ignored path="539_mid_proj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +111,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/539_mid_proj$expr.coverage" NAME="expr Coverage Results" MODIFIED="1456466246349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/539_mid_proj$test.coverage" NAME="test Coverage Results" MODIFIED="1457400454471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/539_mid_proj$expr.coverage" NAME="expr Coverage Results" MODIFIED="1457402130209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/539_mid_proj$lda.coverage" NAME="lda Coverage Results" MODIFIED="1456111395035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/539_mid_proj$pca_test.coverage" NAME="pca_test Coverage Results" MODIFIED="1456184140686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/539_mid_proj$pca.coverage" NAME="pca Coverage Results" MODIFIED="1456206975548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -56,31 +149,7 @@
         <entry file="file://$PROJECT_DIR$/mthds.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="125" column="42" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bare_conf.tex" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bare_conf.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.8535504">
-              <caret line="406" column="29" selection-start-line="406" selection-start-column="29" selection-end-line="406" selection-end-column="29" />
-              <folding>
-                <element signature="e#12247#13324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="expr.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+              <caret line="110" column="68" selection-start-line="110" selection-start-column="68" selection-end-line="110" selection-end-column="68" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -92,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/my_func.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -100,11 +169,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pca_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pca_test.py">
+      <file leaf-file-name="expr.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/expr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.265625">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -133,10 +202,13 @@
         <option value="$PROJECT_DIR$/my_lda.py" />
         <option value="$PROJECT_DIR$/pca_test.py" />
         <option value="$PROJECT_DIR$/pca.py" />
-        <option value="$PROJECT_DIR$/my_func.py" />
-        <option value="$PROJECT_DIR$/expr.py" />
-        <option value="$PROJECT_DIR$/mthds.py" />
         <option value="$PROJECT_DIR$/bare_conf.tex" />
+        <option value="$PROJECT_DIR$/subset.py" />
+        <option value="$PROJECT_DIR$/libsvm/tools/grid.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/my_func.py" />
+        <option value="$PROJECT_DIR$/mthds.py" />
+        <option value="$PROJECT_DIR$/expr.py" />
       </list>
     </option>
   </component>
@@ -148,6 +220,31 @@
   <component name="ProjectFrameBounds">
     <option name="width" value="1280" />
     <option name="height" value="800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -174,6 +271,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,14 +291,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="539_mid_proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="539_mid_proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataset" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="539_mid_proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="539_mid_proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -213,6 +338,12 @@
       </console-settings>
     </option>
     <option name="myShowDebugConsoleByDefault" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aux" />
+      <recent name="$PROJECT_DIR$/dataset" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.expr">
     <configuration default="false" name="lda" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -283,6 +414,24 @@
       <module name="539_mid_proj" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pca_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="539_mid_proj" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -480,18 +629,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.lda" />
       <item index="1" class="java.lang.String" itemvalue="Python.expr" />
       <item index="2" class="java.lang.String" itemvalue="Python.pca" />
       <item index="3" class="java.lang.String" itemvalue="Python.pca_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.expr" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pca" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pca_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.lda" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pca" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pca_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.lda" />
       </list>
     </recent_temporary>
   </component>
@@ -515,33 +666,42 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28513733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3181818" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3029079" sideWeight="0.50852275" order="4" side_tool="true" content_ui="tabs" x="-46" y="272" width="1280" height="225" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.4951535" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32386363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.49353796" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3536932" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="600" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3243626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35410765" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -549,18 +709,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3181818" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="100" y="100" width="1080" height="600" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3029079" sideWeight="0.50852275" order="4" side_tool="true" content_ui="tabs" x="-46" y="272" width="1280" height="225" />
+      <window_info id="Python Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3029079" sideWeight="0.50852275" order="4" side_tool="true" content_ui="tabs" x="-46" y="272" width="1280" height="225" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.4951535" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3252841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.49353796" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32386363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.49353796" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28513733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35511363" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35410765" sideWeight="0.49676898" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -587,59 +747,31 @@
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/expr.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/mthds.py</url>
-          <line>130</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/mthds.py</url>
-          <line>105</line>
-          <option name="timeStamp" value="61" />
+          <line>43</line>
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="62" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="88" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mthds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="42" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bare_conf.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#12247#13324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_func.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -655,57 +787,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mthds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pca_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -755,7 +837,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -994,13 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8417159">
-          <caret line="1801" column="0" selection-start-line="1801" selection-start-column="0" selection-end-line="1801" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda/envs/539_Proj1/lib/python2.7/site-packages/numpy/core/numeric.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="8.775281">
@@ -1046,12 +1121,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pca_test.py">
+    <entry file="file://$PROJECT_DIR$/aux/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pca_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5957944">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libsvm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libsvm/tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libsvm/python/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libsvm/tools/grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037861917">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/envs/539_Proj1/lib/python2.7/site-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5233645">
+          <caret line="2410" column="0" selection-start-line="2410" selection-start-column="0" selection-end-line="2410" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aux/subset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/envs/539_Proj1/lib/python2.7/site-packages/sklearn/neighbors/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63616073">
+          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1059,17 +1211,7 @@
     <entry file="file://$PROJECT_DIR$/my_func.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -1079,19 +1221,19 @@
     <entry file="file://$PROJECT_DIR$/mthds.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="42" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
+          <caret line="110" column="68" selection-start-line="110" selection-start-column="68" selection-end-line="110" selection-end-column="68" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bare_conf.tex">
+    <entry file="file://$PROJECT_DIR$/expr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.8535504">
-          <caret line="406" column="29" selection-start-line="406" selection-start-column="29" selection-end-line="406" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.265625">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
-            <element signature="e#12247#13324#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

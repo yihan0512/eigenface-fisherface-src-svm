@@ -1,6 +1,9 @@
 import numpy as np
 import scipy.io as sio
 import matplotlib.pyplot as plt
+from aux import subset
+from libsvm.python import svmutil
+import pandas as pd
 
 def eigs(A, k):
     """
@@ -44,32 +47,6 @@ def eigs1(A, B, k):
     # print '%f%% variance reserved' % (info*100)
     return W
 
-def predat(num_tr, num_te):
-    """Initializing the training set and testing set
-    ------------------------------------------------
-    inputs:
-    num_tr --num of training samples per class
-    num_te --num of testing samples per class
-
-    outputs:
-    sam_tr --matrix contains training samples
-    sam_te --matrix contains testing samples
-    num_cls --num of classes
-    """
-    dataset = sio.loadmat('Yale.mat')
-    samples = dataset['fea'].T
-    labels = dataset['gnd']
-    num_cls = np.unique(labels).size # num of classes
-    num_to = num_tr + num_te  # num of total samples in each class
-    # indices of samples, left half training, right half testing
-    ind = np.array([np.random.permutation(
-    np.where(labels==i)[0][0:num_to]) for i in range(1, num_cls+1)])
-    training_idx, testing_idx = ind[:, 0:num_tr].flatten(0), \
-                            ind[:, num_tr:num_to].flatten(0)
-    # training set and testing set
-    sam_tr, sam_te = samples[:, training_idx], samples[:, testing_idx]
-    return sam_tr, sam_te, num_cls
-
 def showface(W):
     """
     draw face according to the projection matrix
@@ -86,3 +63,56 @@ def showface(W):
         np.sqrt(fea_dm), np.sqrt(fea_dm)), order='F').astype(float)
     plt.imshow(face, cmap=plt.get_cmap('gray'))
     plt.show()
+
+def plt_co_mat(co):
+    numOlbs = co.shape[0]
+    plt.imshow(co, interpolation='nearest', cmap=plt.cm.Blues)
+    plt.title('confusion matrix')
+    plt.colorbar()
+    plt.xticks(np.arange(numOlbs), np.arange(numOlbs)+1)
+    plt.yticks(np.arange(numOlbs), np.arange(numOlbs)+1)
+    plt.ylabel('True label')
+    plt.xlabel('Predicted label')
+    plt.show()
+
+def predat(numOtr, cls):
+    """
+    random subset the dataset, then convert
+    to numpy format for further implementations
+    -------------------------------------------
+    input:
+    numOtr --total number of training samples
+    cls --number of classes
+
+    output:
+    sam_tr, ind_tr --numpy format training samples
+    sam_te, ind_te --numpy format testing samples
+    cls -- number of classes
+    """
+    subset.main('dataset/YaleB.scale', numOtr, 0, 'dataset/YaleB.scale.tr', 'dataset/YaleB.scale.te')
+    lb_tr, ins_tr = svmutil.svm_read_problem('dataset/YaleB.scale.tr')
+    lb_te, ins_te = svmutil.svm_read_problem('dataset/YaleB.scale.te')
+    # change training data to numpy format
+    df = pd.DataFrame(ins_tr).fillna(0)
+    sam_tr = pd.DataFrame.as_matrix(df).T
+    ind_tr = np.array(lb_tr)
+    # change testing data to numpy format
+    df = pd.DataFrame(ins_te).fillna(0)
+    sam_te = pd.DataFrame.as_matrix(df).T
+    ind_te = np.array(lb_te)
+    return sam_tr, ind_tr, sam_te, ind_te, cls
+
+def np2libsvm(ind_tr, sam_tr, ind_te, sam_te):
+    """
+    convert numpy format data to libsvm format for classification
+    ----------------------------------------------
+    """
+    ins_tr, ins_te = [], []
+    for row in sam_tr.T: # 380*1024
+        ins_tr.append(dict(enumerate(row)))
+    for row in sam_te.T:
+        ins_te.append(dict(enumerate(row)))
+    lb_tr = list(ind_tr)
+    lb_te = list(ind_te)
+    return lb_tr, ins_tr, lb_te, ins_te
+
