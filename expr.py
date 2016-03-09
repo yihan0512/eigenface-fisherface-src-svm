@@ -6,7 +6,7 @@ from aux import subset
 # initialization
 expr_time = 1
 tr = 29
-expr = [1, 2, 3, 4, 5]
+expr = [3]
 """
 0. showface
 1. fisherface influence of k

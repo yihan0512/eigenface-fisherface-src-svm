@@ -11,3 +11,4 @@ for i = 1:length(train)
     accu = ac/expr_time;
     res(i) = accu;
 end
+save('src_result', 'accu')

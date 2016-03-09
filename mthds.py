@@ -90,7 +90,6 @@ def pca(k, sam_tr, ind_tr, sam_te, ind_te, c, classifier=0):
 
     # training
     mu = np.mean(sam_tr, axis=1)  # compute overall mean
-    mu_c = np.mean(sam_tr.T.reshape(c, num_tr, dm), axis=1).T  # contain all class centres
     B = sam_tr - np.tile(mu.reshape(dm, 1), (1, num_tr*c))
     S = B.T.dot(B)
     # S = sam_tr.dot(sam_tr.T)
