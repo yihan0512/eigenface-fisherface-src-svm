@@ -21,4 +21,4 @@ cd python/
 make
 ```
 ###spgl1 solver
-* compile a c-version by running spgsetup.m for faster computation"
+* compile a c-version by running spgsetup.m for faster computation
