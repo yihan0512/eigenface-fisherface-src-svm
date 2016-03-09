@@ -1,0 +1,7 @@
+*.mat -crlf -diff -merge
+*.p -crlf -diff -merge
+*.slx -crlf -diff -merge
+*.mdl -crlf -diff -merge
+*.mexmaci64 -crlf -diff -merge
+*.tex -crlf -diff -merge
+*.eps -crlf -diff -merge
