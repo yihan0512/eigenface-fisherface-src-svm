@@ -67,7 +67,7 @@ for numOexpr in expr:
         for k in np.array([50, 100, 150, 200, 250, 300, 500]):
             ac = 0
             for i in range(1, expr_time+1):
-                sam_tr, ind_tr, sam_te, ind_te, c  = mf.predat(38*tr, 38)
+                sam_tr, ind_tr, sam_te, ind_te, c  = mf.predat(38*50, 38)
                 a, co, w = md.pca(k, sam_tr, ind_tr, sam_te, ind_te, c, classifier=1)
                 ac += a
             accu = ac/expr_time
