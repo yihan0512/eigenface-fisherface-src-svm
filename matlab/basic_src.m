@@ -5,7 +5,6 @@ dim = size(sam_tr, 1);
 numOte = size(sam_te, 2);
 p_value = zeros(1, numOte);
 parfor sam = 1:numOte
-    sam
     opts = spgSetParms('verbosity',0);         % Turn off the SPGL1 log output
     x = spg_bp(sam_tr, sam_te(:, sam), opts);
     res = zeros(1, 38);
