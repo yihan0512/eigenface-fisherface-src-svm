@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{adini1997face}
+Yael Adini, Yael Moses, and Shimon Ullman.
+\newblock Face recognition: The problem of compensating for changes in
+  illumination direction.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 19(7):721--732, 1997.
+
+\bibitem{belhumeur1997eigenfaces}
+Peter~N Belhumeur, Jo{\~a}o~P Hespanha, and David~J Kriegman.
+\newblock Eigenfaces vs. fisherfaces: Recognition using class specific linear
+  projection.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 19(7):711--720, 1997.
+
+\bibitem{heisele2001face}
+Bernd Heisele, Purdy Ho, and Tomaso Poggio.
+\newblock Face recognition with support vector machines: Global versus
+  component-based approach.
+\newblock In {\em Computer Vision, 2001. ICCV 2001. Proceedings. Eighth IEEE
+  International Conference on}, volume~2, pages 688--694. IEEE, 2001.
+
+\bibitem{chang2011libsvm}
+Chih-Chung Chang and Chih-Jen Lin.
+\newblock Libsvm: a library for support vector machines.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology (TIST)},
+  2(3):27, 2011.
+
+\bibitem{wright2009robust}
+John Wright, Allen~Y Yang, Arvind Ganesh, Shankar~S Sastry, and Yi~Ma.
+\newblock Robust face recognition via sparse representation.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 31(2):210--227, 2009.
+
+\bibitem{wangrobust}
+Panqu Wang and Can Xu.
+\newblock Robust face recognition via sparse representation.
+
+\bibitem{amaldi1998approximability}
+Edoardo Amaldi and Viggo Kann.
+\newblock On the approximability of minimizing nonzero variables or unsatisfied
+  relations in linear systems.
+\newblock {\em Theoretical Computer Science}, 209(1):237--260, 1998.
+
+\end{thebibliography}
