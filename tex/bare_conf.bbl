@@ -33,14 +33,21 @@ John Wright, Allen~Y Yang, Arvind Ganesh, Shankar~S Sastry, and Yi~Ma.
 \newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
   on}, 31(2):210--227, 2009.
 
-\bibitem{wangrobust}
-Panqu Wang and Can Xu.
-\newblock Robust face recognition via sparse representation.
-
 \bibitem{amaldi1998approximability}
 Edoardo Amaldi and Viggo Kann.
 \newblock On the approximability of minimizing nonzero variables or unsatisfied
   relations in linear systems.
 \newblock {\em Theoretical Computer Science}, 209(1):237--260, 1998.
+
+\bibitem{wangrobust}
+Panqu Wang and Can Xu.
+\newblock Robust face recognition via sparse representation.
+
+\bibitem{scikit-learn}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
+  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research}, 12:2825--2830, 2011.
 
 \end{thebibliography}

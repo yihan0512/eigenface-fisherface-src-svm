@@ -163,6 +163,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \graphicspath{{fig/}}
+\usepackage{caption}
 % A popular package from the American Mathematical Society that provides
 % many useful and powerful commands for dealing with mathematics.
 %
@@ -399,9 +400,7 @@ In this paper, we discussed four face recognition techniques which are of great 
 
 Support Vector Machine(SVM) is probably the dominant classifier in the last two decades. SVM tries to learn a hyperplane between two different classes of data, which maximize the margin between the plane supported by support vectors of each class and the hyperplane. The hyperplane can be viewed as a decision function thus data from different classes can be well separated. In the linearly inseparable case, kernel functions are involved to map data to a higher, linear separable dimension. However, experimental results shows that SVM relies heavily on choices of parameters and size of training set, improper parameters or small training set may results in unacceptable classification accuracy. Thus a cross validation technique is required to search for the best parameters. Sparse Representation-based classification(SRC) is a relatively young but promising method been studied over the past few years. SRC borrowed the idea of sparse representation from compressed sensing in signal processing field, which represents each query image with samples in the training set, or in other words, transforms each image into the space spanned by samples in the training set. The result vector will only have large coefficients in the entries corresponding to training images of the same class, thus it's very sparse. The process can be viewed as solving an underdetermined linear system of equations, thus the solution is not unique, seeking for the sparest solution, we can get the best representation of each query image corresponding to all images in the training set. Then residual comparisons between original images and the image reconstructed by their sparse representations are made to determine the classification results. Experimental result shows that SRC is very power full even with a training set of very small size.
 
-We explored the concepts and theories of these four techniques, tried to look into their advantages as well as drawbacks. We tested these methods on the extended Yale B dataset, looked into the influence of some parameters. We also tried to apply some local feature extraction technique to improve the classification result.
-
-The remaining content of the paper is organized as follow: In section 2, we explained the theories of these four methods; In section 3, we gave our experimental results and analysis; In section 4, we draw our conclusions and propose some challenges that might be improved in further studies.
+We explored the concepts and theories of these four techniques, tried to look into their advantages as well as drawbacks. We tested these methods on the extended YaleB dataset, looked into the influence of some parameters. The remaining content of the paper is organized as follow: In section 2, we explained the theories of these four methods; In section 3, we gave our experimental results and analysis; In section 4, we draw our conclusions and propose some challenges that might be improved in further studies.
 
 
 \section{Methods}
@@ -633,37 +632,62 @@ For classification task, we simple reconstruct the image corresponding to each c
 \end{equation} 
 where $\gamma_i$ is a function that selects the coefficients within the $i$th class.
 
-Compared with other popular classification methods such as Nearest Neighbour and SVM, SRC classifies test image based on all possible support within the training set\cite{wright2009robust}, while Nearest Neighbour uses only one and SVM uses those on the support plane. Thus SRC is expected to have preciser description of query images.
+Compared with other popular classification methods such as Nearest Neighbour and SVM, SRC classifies test image based on all possible support within the training set\cite{wright2009robust}, while Nearest Neighbour uses only one and SVM uses those on the support plane, thus is expected to have preciser description of query images.
+
+One more thing worth noticing is that once the sparsity is harnessed, the choice of different features is no longer critical\cite{wangrobust}.
 \section{Experimental Results}
+In this section, we apply the aforementioned four methods to the extended YaleB dataset, which contains 38 individuals, each individual have around 60 samples. We simply vectorize each image to form a description. We first look into the overall performance of each method. Then we vary the number of principal components in Eigenface and Fisherface, try to evaluate it's influence on the classification result. Finally, we looked into the influence of size of training set, make comparison to different methods and strategies.
 
-\subsection{Dataset}
-maybe a little bit about the dataset like situation we are facing(glass, expression, illumination).
 \subsection{Overall Performance}
-distribution of pca,lda(all sample vs centres maybe)
-computation time of pca,lda against before projection
-influence of parameters of svm
-computation complexity of src
-\subsection{Influence of k}
-maybe x-axis can be the percentage
-\subsection{Influence of training set size}
-remove 1st 3 prin comp!
 
+Here we present the best classification result of each method we can reach.We picked 50 training sample per class, and do the testing on the rest, each experiment is repeated 5 times for stability. For the first two subspace method, we applied both a Nearest Neighbour(NN) classifier\cite{scikit-learn} and SVM\cite{chang2011libsvm} to achieve the accuracy, for SVM, a cross-validation
+process is performed to guarantee a good result, for SRC, we did nothing, just let it run, but the result seems to defeat any other methods.
+\begin{center}
+	\captionof{table}{Classification results over different methods.}
+	\begin{tabular}{|c c c|} 
+		\hline
+		Eigenface+NN & Fisherface+NN & SVM  \\ 
+		\hline
+		 81.13\% & 95.06\% & 94.94\%  \\  
+		\hline
+		Eigenface+SVM & Fisherface+SVM &  SRC  \\   
+		\hline
+		79.56\% & 94.36\% &  99.03\%  \\
+		\hline
+	\end{tabular}
+\end{center}
+
+Eigenface achieves the lowest accuracy compared to other methods, no matter simple Nearest Neighbour classifier or advanced SVM is applied, this coincides with our deduction that PCA reduces discriminative power between different classes, smears all samples together, thus followed by a SVM classifier, which seeks a hyperplane that linearly separate the data, is worse than simply finding the nearest neighbour.  Fisherface shows similar results on both NN and SVM, and the classification accuracy is satisfying. As mentioned above, Fisherface makes use of class label information, thus gains better discrimination, it like shaping the data, making them clustered. SVM along obtains similar results, however, without dimension reduction, the computation complexity is high, especially a cross validation process is applied. Moreover, the cross validation is necessary to obtain a reasonable result, casual choice of some parameters may results in an unacceptable classification accuracy. SRC shows surprisingly high accuracy, it's nearly $100\%$. SRC seeks all possible support for the representation of query images, owe to the sparsity of the representation, the coefficients is highly concentrated, thus each images is well described and discrimination between different classes is obvious. However, In our experiment, as the size of the training size increased, the computing time of SRC rises significantly even under a parallel computing setup, thus further study might need to be conducted to fit it into a real-world application.
+
+\subsection{Influence of k}
+In this experiment we test the influence of number of principal components we pick for the project matrix on the classification result. We set the training sample per class to be 50, and again each run of experiment is repeated 5 times for the stability of the results.
+\begin{figure}[htbp]
+	\includegraphics[width=0.5\textwidth]{infk}
+	\caption{Influence of number of principal components. A small percentage of principal components is enough to obtain a satisfying classification accuracy}
+	\label{infk}
+\end{figure}
+As shown in Fig. \ref{infk}, both Eigenface and Fisherface achieve steady results after the number of principal components rises rises. Only a small rise is enough to obtain steady results. Thus by project data onto the subspace of such small dimension, the computation is significantly reduced comparing with the original feature of all image pixels.
+\subsection{Influence of training set size}
+In this experiment we look into the influence of training set size over a variety of methods and strategies. 
+\begin{figure}[htbp]
+	\includegraphics[width=0.5\textwidth]{inftr}
+	\caption{Influence of training set size.}
+	\label{inftr}
+\end{figure}
+First thing to notice is that when the size of training set is relatively small, the result of Fisherface, no matter with NN or SVM classifier is much worse even than guess. However, as the number of training sample increases, the classification accuracy increases sharply.
+
+Applying SVM after Eigenface does not do any help to the result, instead, it even worse the situation as discussed above. Removing the largest three principal components in Eigenface results in a increase over all choice of training samples size, which verifies our deduction that by removing the principal components that capture illumination changes, the data is better clustered. The curve of Eigenface with out largest three principal components shows a decrease between 40 and 50, which is also mentioned in \cite{belhumeur1997eigenfaces}.
+
+SRC and SVM shows top-level results over all choice of size, they are really reliable classifiers, however again the computational complexity involved in training the model is an issue that need to look into.
 
 \section{Conclusion}
-The conclusion goes here.
-
-
+In this paper we explored four popular face recognition techniques, briefly introduced their theories, discussed their highlights as well as drawbacks. We did experiment to test the performance of them and some combinations of them. The experiment results shows that SRC outperformed other techniques without any fancy adjustments on parameters or strategies. Thus we can conclude that SRC is really a powerful and promising technique for the face recognition task, however further study might be needed to deal with the issue of computation.
 
 
 % conference papers do not normally have an appendix
 
 
 % use section* for acknowledgment
-\section*{Acknowledgment}
-
-
-The authors would like to thank...
-
 
 \bibliography{refs}
 \bibliographystyle{unsrt}
